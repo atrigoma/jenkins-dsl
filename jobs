@@ -86,3 +86,13 @@ job('maven_dsl') {
         mailer('alvaro.trigo@gmail.com', true, true)
     }
 }
+
+job('job-created-from-git') {
+   shell('''
+     echo ************************
+     echo "Hola mundo!!!"
+     echo ************************
+   ''')
+}
+
+
