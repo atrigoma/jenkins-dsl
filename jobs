@@ -88,6 +88,7 @@ job('maven_dsl') {
 }
 
 job('job-created-from-git') {
+  steps {
    shell('''
      echo ************************
      echo "Hola mundo!!!"
