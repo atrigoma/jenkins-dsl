@@ -91,7 +91,7 @@ job('job-created-from-git') {
   steps {
    shell('''
      echo ************************
-     echo "Hola mundo!!!"
+     echo "Por fin funcionooo!!!"
      echo ************************
    ''')
    }
